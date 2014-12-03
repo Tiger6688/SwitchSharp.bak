@@ -2385,10 +2385,14 @@ http://*174.142.105.153
 http://*69.65.19.160
 !@https://autoproxy.org*
 !@http://ime.baidu.jp*
-*://*.ggpht.com/*
 *://*.google.com.*/*
 *://*.google*.com/*
+*:/*.ggpht.com/*
+*://*.sourceforge.net/*
+*://*.sf.net/*
 *://*.wikipedia.org/*
+*:/*.youtube.com/*
+*:/*.xda-developers.com/*
 
 [regexp]
 ^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?darpa\.mil
@@ -3837,5 +3841,6 @@ http://*69.65.19.160
 !^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?yahoo\.cn
 !^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?youdao\.com
 !^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?zhongsou\.com
+^.*?://.*?(youku|qiyi|iqiyi|letv|sohu|ku6|ku6cdn|pps).(com|tv)/crossdomain.xml$
 
 #END
